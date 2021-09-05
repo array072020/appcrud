@@ -1,0 +1,21 @@
+.pic{
+	width:55px;
+	height:60px;
+}
+.picbig{
+	position: absolute;
+	width:0px;
+	-webkit-transition:width 0.3s linear 0s;
+	transition:width 0.3s linear 0s;
+	z-index:10;
+	margin-left:-7px;
+    margin-top:-7px;
+    border : 2px solid #FFF;
+    background-color: #FFF;
+    box-shadow:5px 5px 20px #000000;
+    border-radius: 5px;
+}
+.pic:hover + .picbig{
+	width:75px;
+	height:90px;
+}
